@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/login", "destination": "/index.html" },
+    { "source": "/signup", "destination": "/index.html" },
+    { "source": "/auth/callback", "destination": "/index.html" },
+    { "source": "/tap/(.*)", "destination": "/index.html" },
+    { "source": "/p/(.*)", "destination": "/index.html" },
+    { "source": "/dashboard", "destination": "/index.html" },
+    { "source": "/linkpool-admin", "destination": "/index.html" },
+    { "source": "/nfc-inventory-admin", "destination": "/index.html" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
